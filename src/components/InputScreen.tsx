@@ -30,11 +30,11 @@ interface TikTokData {
             nickname: string | null;
         };
         desc: string | null;
-        music: string | null;
         videoSD: string | null;
         videoHD: string | null;
         video_hd: string | null;
         videoWatermark: string | null;
+        music: string | null;
     }
 }
 
