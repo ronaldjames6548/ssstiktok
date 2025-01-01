@@ -182,6 +182,7 @@ function InputScreen({ }: Props) {
                         >{data()!.result.desc}</p>
 
                     </div>
+                    <div data-astro-cid-zi4ldr3x=""> <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQttCuBaFyeRAYoiBjH3a63XvxI2msBgWrqStx3r9Nvg4W9kh9Xy1maGHXJnXFtCw3h9w-MbqHzTBOJsqZ6LVlM9EROW0UQSk2AvFIXV2UXpcw7M3MDxMUNqbksAN9IQS57LMICA/s1600/300x250+in+336x250+black+border.png" imageanchor="1" style="margin-left: auto; margin-right: auto;" target="_blank" data-astro-cid-zi4ldr3x=""><img border="0" height="280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQttCuBaFyeRAYoiBjH3a63XvxI2msBgWrqStx3r9Nvg4W9kh9Xy1maGHXJnXFtCw3h9w-MbqHzTBOJsqZ6LVlM9EROW0UQSk2AvFIXV2UXpcw7M3MDxMUNqbksAN9IQS57LMICA/s320/300x250+in+336x250+black+border.png" width="336" data-astro-cid-zi4ldr3x=""></a> </div>
                     <div class='flex flex-col justify-center gap-2 mt-2'>
                         {data()!.result.videoSD && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoSD ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video Low Without Watermaker</a>}
                         {data()!.result.videoHD && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoHD ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video HD Without Watermaker</a>}
