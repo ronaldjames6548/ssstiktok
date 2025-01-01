@@ -183,7 +183,7 @@ function InputScreen({ }: Props) {
 
                     </div>
                     <div class="relative bg-gray-400 dark:bg-slate-700 mb-6 md:h-64 rounded shadow-lg">
-                       <a class="p-2 bg-blue-600 shadow-md h-10 rounded text-white" href="/">Download Another Video</a>
+                       <a class="p-2 bg-blue-600 shadow-md h-10 rounded text-white" href="/"><img class="image-placeholder" src="https://i.imgur.com/aX6pj6H.png" alt="fireworks-ad-sample"></a>
                         
                         
                        </div>
