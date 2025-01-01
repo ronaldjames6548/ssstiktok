@@ -182,7 +182,11 @@ function InputScreen({ }: Props) {
                         >{data()!.result.desc}</p>
 
                     </div>
-                    <div class="relative bg-gray-400 dark:bg-slate-700 mb-6 md:h-64 rounded shadow-lg"><a href="/useful-resources-to-create-websites"><img alt="Useful tools and resources to create a professional website" class="w-full shadow-lg bg-gray-400 dark:bg-slate-700 md:h-full rounded" loading="lazy" src="https://images.unsplash.com/photo-1637144113536-9c6e917be447?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80" crossorigin="anonymous" decoding="async" height="225" referrerpolicy="no-referrer" sizes="(max-width: 900px) 400px, 900px" srcset="https://images.unsplash.com/photo-1637144113536-9c6e917be447?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=80&amp;h=225 400w, https://images.unsplash.com/photo-1637144113536-9c6e917be447?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=80&amp;h=506 900w" style="object-fit:cover;object-position:center;max-width:100%;max-height:100%" width="400"></a></div>
+                    <div class="relative bg-gray-400 dark:bg-slate-700 mb-6 md:h-64 rounded shadow-lg">
+                       <a class="p-2 bg-blue-600 shadow-md h-10 rounded text-white" href="/">Download Another Video</a>
+                        
+                        
+                       </div>
 
                     
                     <div class='flex flex-col justify-center gap-2 mt-2'>
