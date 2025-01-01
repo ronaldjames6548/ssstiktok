@@ -4,6 +4,9 @@ import { localizePath } from "astro-i18next";
 // @ts-ignore
 import { Icon } from "astro-icon/components";
 import { t } from "i18next";
+import { Image } from 'astro:assets';
+import downImage from '../images/tiktokio-tiktok-downloader.avif';
+
 
 const features = [];
 ---
@@ -14,7 +17,8 @@ const features = [];
                 <div class="md:flex">
                     
                     <div class="md:shrink-0">
-                        <img class="h-80 w-full object-cover md:h-full md:w-80" src="https://stiktokio.com/images/tiktokio-tiktok-downloader.avif">
+                        <Image src={myImage} alt="Tiktokio Tiktok downloader" class="my-class" />
+
                     </div>
 
                     <div class="p-8">
