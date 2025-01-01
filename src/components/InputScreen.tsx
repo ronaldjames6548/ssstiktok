@@ -182,8 +182,11 @@ function InputScreen({ }: Props) {
                         >{data()!.result.desc}</p>
 
                     </div>
-                    <div class='flex flex-col justify-center gap-2 mt-2'> 
-                        <a href="/" imageanchor="1" target="_blank"><img border="0" height="280" src="https://i.imgur.com/aX6pj6H.png" width="336"></a> </div>
+                    <div class="mr-0 md:mr-8 mb-6 md:mb-0">
+            <img class="w-1/2 md:w-full mx-auto" src="https://placeholder.pics/svg/400" alt="can_help_banner">
+        </div>
+
+                    
                     <div class='flex flex-col justify-center gap-2 mt-2'>
                         {data()!.result.videoSD && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoSD ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video Low Without Watermaker</a>}
                         {data()!.result.videoHD && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoHD ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video HD Without Watermaker</a>}
