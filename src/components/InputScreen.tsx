@@ -174,7 +174,7 @@ function InputScreen({ }: Props) {
                     </div>
 
                     <div>
-                        <video controls src={data()!.result.videoSD ?? data()!.result.videoHD ?? data()!.result.videoWatermark ?? ""}
+                        <video controls src={data()!.result.videoSD ?? data()!.result.videoHD ?? data()!.result.videoWatermark ?? data()!.result.music ?? ""}
                             class=" rounded-md shadow-md my-3 w-3/4 mx-auto"
                         ></video>
                         <p
@@ -187,6 +187,7 @@ function InputScreen({ }: Props) {
                         {data()!.result.videoHD && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoHD ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video HD Without Watermaker</a>}
                         {data()!.result.videoWatermark && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.videoWatermark ?? "")}&type=.mp4&title=${data()!.result.author?.nickname}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Video With Watermark</a>}
                         {data()!.result.music && <a href={`https://dl.vid3konline.workers.dev/api/download?url=${encodeURIComponent(data()!.result.music ?? "")}&type=.mp3&title=${data()!.result.author?.nickname ?? ""}`} class="p-2 bg-blue-600 shadow-md h-10 rounded text-white">Download Audio Only</a>}
+                        <a class="p-2 bg-blue-600 shadow-md h-10 rounded text-white" href="/">Download Another Video</a>
                     </div>
 
 
